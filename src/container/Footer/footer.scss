@@ -1,14 +1,18 @@
 .app__footer {
     flex: 1;
-    height: 200px;
+    // height: 200px;
     background-color: var(--black-color);
 }
 
 .app__footer-text {
     color: white;
     display: flex;
+    flex-direction: column;
     justify-content: center;
     align-items: center;
+    text-align: center;
+    height: 100%;
+    line-height: 2rem;
     padding: 2rem 4rem;
     flex-wrap: wrap;
 }
@@ -19,4 +23,9 @@
     justify-content: center;
     align-content: center;
     padding-bottom: 1.5rem;
+}
+
+.app__flex-text {
+    display: flex;
+    flex-direction: column;
 }

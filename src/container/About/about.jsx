@@ -45,6 +45,5 @@ function About() {
 }
 
 export default appWrapper(motionWrapper(About, 'app__about'),
-    'about',
-
+    'about'
 )
