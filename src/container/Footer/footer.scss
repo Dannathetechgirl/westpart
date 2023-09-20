@@ -1,0 +1,22 @@
+.app__footer {
+    flex: 1;
+    height: 200px;
+    background-color: var(--black-color);
+}
+
+.app__footer-text {
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 2rem 4rem;
+    flex-wrap: wrap;
+}
+
+.app__footer-copy {
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    padding-bottom: 1.5rem;
+}
