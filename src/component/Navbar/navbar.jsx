@@ -21,7 +21,7 @@ function Navbar() {
                 ))}
                 <li className="app__flex p-text" key="link-ocean-app">
                     <div />
-                    <a href="https://ocean.cognisantmd.com/online-booking/8974d371-058b-4c4c-8074-ef154a40ef5f" target="_blank" rel="noopener noreferrer">Ocean App</a>
+                    <a href="https://ocean.cognisantmd.com/online-booking/8974d371-058b-4c4c-8074-ef154a40ef5f" target="_blank" rel="noopener noreferrer">Book an Appointment</a>
                 </li>
             </ul>
             <div className='app__navbar-menu'>
