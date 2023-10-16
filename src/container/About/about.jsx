@@ -1,6 +1,8 @@
 import React from "react";
 import './about.scss'
 import { motionWrapper, appWrapper } from "../../wrapper";
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import { faPhone, faEnvelope } from '@fortawesome/free-solid-svg-icons';
 
 
 function About() {
@@ -15,11 +17,11 @@ function About() {
                 <div className="app__about-card">
                     <h4 className="app__about-title bold-text">Contact Us</h4>
                     <div className="app__about-content">
-                        <h5 className="p-text">Phone Number </h5>
-                        <span>0900000000</span>
+                        <FontAwesomeIcon icon={faPhone} color="#5cb25d" />
+                        <span>(587) 457-9900</span>
                     </div>
                     <div className="app__about-content">
-                        <h5 className="p-text">Email Address</h5>
+                        <FontAwesomeIcon icon={faEnvelope} color="#5cb25d" />
                         <span>west@gmail.com</span>
                     </div>
 

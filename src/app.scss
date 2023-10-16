@@ -58,7 +58,7 @@
   text-transform: capitalize;
 
   span {
-    color: var(--secondary-color);
+    color: #5cb25d;
   }
 
   @media screen and (min-width: 2000px) {
@@ -73,8 +73,9 @@
 .p-text {
   font-size: 0.8rem;
   text-align: left;
-  color: var(--secondary-color);
+  color: #5cb25d;
   line-height: 1.5;
+  font-family: 'montserrat';
 
   @media screen and (min-width: 2000px) {
     font-size: 1.75rem;
@@ -84,7 +85,7 @@
 .bold-text {
   font-size: 1rem;
   font-weight: 800;
-  color: var(--blue-color);
+  color: var(--black-color);
   text-align: left;
 
   @media screen and (min-width: 2000px) {
