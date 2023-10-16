@@ -18,7 +18,7 @@
         top: 50%;
         left: 0%; // Offset it to the left
         transform: translateY(-50%);
-        z-index: 2; // Lay on top
+
 
         @media (max-width: 1024px) {
             width: 70%; // Adjust for tablet
@@ -30,6 +30,7 @@
             width: 100%;
             transform: none;
             margin: 50px 0; // Add some margin
+            box-shadow: none;
         }
     }
 
