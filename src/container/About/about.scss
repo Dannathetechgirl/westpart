@@ -1,3 +1,6 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap');
+
+
 .app__about-card-container {
     display: flex;
     flex-wrap: wrap;
@@ -39,6 +42,7 @@
 
 .app__text {
     padding: 3rem;
+    font-family: 'montserrat';
 }
 
 .app__about-title {
