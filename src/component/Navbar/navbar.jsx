@@ -33,7 +33,7 @@ function Navbar() {
                         className='app__hamburger-motion'
                     >
 
-                        <i class="fa-solid fa-xmark" setToggle={false} className='app__HiX'></i>
+                        <i class="fa fa-xmark" setToggle={false} className='app__HiX'></i>
 
                         <ul>
                             {['Home', 'about'].map((item) => (
