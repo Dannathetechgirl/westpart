@@ -5,6 +5,7 @@ import { HiMenuAlt4, HiX } from 'react-icons/hi'
 import { motion } from 'framer-motion'
 
 
+
 function Navbar() {
     const [toggle, setToggle] = useState(false);
 
@@ -33,7 +34,7 @@ function Navbar() {
                         className='app__hamburger-motion'
                     >
 
-                        <i class="fa fa-xmark" setToggle={false} className='app__HiX'></i>
+                        <i class="fa fa-close" setToggle={false} className='app__HiX'></i>
 
                         <ul>
                             {['Home', 'about'].map((item) => (
