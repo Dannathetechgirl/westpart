@@ -33,7 +33,8 @@ function Navbar() {
                         className='app__hamburger-motion'
                     >
 
-                        <HiX onClick={() => setToggle(true)} className='app__HiX' />
+                        <i class="fa-solid fa-xmark" className='app__HiX'></i>
+
                         <ul>
                             {['Home', 'about'].map((item) => (
                                 <li key={item}>
