@@ -7,7 +7,7 @@ import { motion } from 'framer-motion'
 
 
 function Navbar() {
-    const [toggle, setToggle] = useState(false);
+    const [toggle, setToggle] = useState(true);
 
     return (
         <nav className='app__navbar'>
@@ -34,7 +34,7 @@ function Navbar() {
                         className='app__hamburger-motion'
                     >
 
-                        <i class="fa fa-close" setToggle={false} style={{ width: 20, color: '#5cb25d', }}></i>
+                        <i onClick={() => setToggle(false)} class="fa fa-close" style={{ width: 20, color: '#5cb25d', }}></i>
 
                         <ul>
                             {['Home', 'about'].map((item) => (
