@@ -16,6 +16,9 @@
         padding: 20px;
         box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
         top: 55%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
         left: 0%; // Offset it to the left
         transform: translateY(-50%);
 
