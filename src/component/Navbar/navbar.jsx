@@ -34,7 +34,7 @@ function Navbar() {
                         className='app__hamburger-motion'
                     >
 
-                        <i class="fa fa-close" setToggle={false} className='app__HiX'></i>
+                        <i class="fa fa-close" setToggle={false} style={{ width: 20, color: '#5cb25d', }}></i>
 
                         <ul>
                             {['Home', 'about'].map((item) => (
