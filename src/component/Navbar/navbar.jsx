@@ -31,6 +31,7 @@ function Navbar() {
                         transition={{ duration: 0.85, ease: 'easeOut' }}
                         className='app__hamburger-motion'
                     >
+                        console.log('here')
                         <HiX onClick={() => setToggle(true)} className='app__HiX' />
                         <ul>
                             {['Home', 'about'].map((item) => (
