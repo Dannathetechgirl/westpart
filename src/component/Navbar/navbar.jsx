@@ -7,7 +7,7 @@ import { motion } from 'framer-motion'
 
 function Navbar() {
     const [toggle, setToggle] = useState(false);
-    console.log('here')
+
     return (
         <nav className='app__navbar'>
             <div className='app__navbar-logo'>
