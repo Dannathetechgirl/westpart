@@ -11,7 +11,7 @@
         width: 60%; // Occupy 60% of the container
         position: absolute;
         background-color: #ffffff;
-        border-top-right-radius: 0px;
+        border-top-right-radius: 15px;
         border-bottom-right-radius: 15px;
         padding: 20px;
         box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
@@ -30,6 +30,7 @@
             width: 100%;
             transform: none;
             margin: 50px 0; // Add some margin
+            top: 40%;
             box-shadow: none;
         }
     }
