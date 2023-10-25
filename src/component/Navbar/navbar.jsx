@@ -1,13 +1,17 @@
 import React, { useState } from 'react'
 import './navbar.scss'
 import { image } from '../../constants'
-import { HiMenuAlt4, HiX } from 'react-icons/hi'
-import { motion } from 'framer-motion'
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import { faTimes as faClose, faBars as faMenu } from '@fortawesome/free-solid-svg-icons';
+import { motion } from 'framer-motion';
 
 
 
 function Navbar() {
-    const [toggle, setToggle] = useState(true);
+    const [isMenuOpen, setIsMenuOpen] = useState(false);
+    const handleToggle = () => {
+        setIsMenuOpen(!isMenuOpen);
+    };
 
     return (
         <nav className='app__navbar'>
@@ -27,20 +31,22 @@ function Navbar() {
                 </li>
             </ul>
             <div className='app__navbar-menu'>
-                {toggle ? (
+
+                {isMenuOpen ? (
                     <motion.div
                         whileInView={{ x: [300, 0] }}
                         transition={{ duration: 0.85, ease: 'easeOut' }}
                         className='app__hamburger-motion'
                     >
 
-                        <HiX onClick={() => setToggle(false)} className="app__HiX" />
+                        <FontAwesomeIcon icon={faClose} onClick={handleToggle} className="app__HiX" />
+
 
                         <ul>
                             {['Home', 'about'].map((item) => (
                                 <li key={item}>
                                     <div />
-                                    <a onClick={() => setToggle(false)} href={`#${item}`}>{item}</a>
+                                    <a onClick={() => setIsMenuOpen(false)} href={`#${item}`}>{item}</a>
                                 </li>
                             ))}
                             <li className="app__flex p-text" key="link-ocean-app">
@@ -50,12 +56,14 @@ function Navbar() {
                         </ul>
                     </motion.div>
                 ) : (
-                    <HiMenuAlt4 onClick={() => setToggle(true)} />
+                    <FontAwesomeIcon icon={faMenu} onClick={handleToggle} className="app__icon" />
                 )}
             </div>
 
         </nav>
-    )
+    );
 }
 
 export default Navbar
+
+
