@@ -1,7 +1,8 @@
 import React from "react";
 import { image } from '../../constants'
 import './section.scss'
-import { appWrapper } from "../../wrapper";
+import { motionWrapper, appWrapper } from "../../wrapper";
+
 
 function Home() {
     return (
@@ -37,4 +38,4 @@ function Home() {
     )
 }
 
-export default appWrapper(Home, 'home')
+export default appWrapper(motionWrapper(Home, 'app__section-container'), 'home')
