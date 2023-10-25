@@ -38,4 +38,4 @@ function Home() {
     )
 }
 
-export default appWrapper(motionWrapper(Home, 'app__section-container'), 'home')
+export default appWrapper(Home, 'home')
