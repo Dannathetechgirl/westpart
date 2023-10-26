@@ -22,7 +22,7 @@ function About() {
                     </div>
                     <div className="app__about-content">
                         <FontAwesomeIcon icon={faEnvelope} color="#5cb25d" />
-                        <span>west@gmail.com</span>
+                        <span>westparkmediclinic@gmail.com</span>
                     </div>
 
                 </div>
