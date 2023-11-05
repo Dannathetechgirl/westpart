@@ -20,12 +20,12 @@ function Navbar() {
             </div>
             <ul className='app__navbar-links'>
                 {['home', 'about',].map((item) => (
-                    <li className='app__flex p-text' key={`link-${item}`}>
+                    <li className='app__flex p-text-word' key={`link-${item}`}>
                         <div />
                         <a href={`#${item}`}>{item}</a>
                     </li>
                 ))}
-                <li className="app__flex p-text" key="link-ocean-app">
+                <li className="app__flex p-text-word" key="link-ocean-app">
                     <div />
                     <a href="https://ocean.cognisantmd.com/online-booking/8974d371-058b-4c4c-8074-ef154a40ef5f" target="_blank" rel="noopener noreferrer">Book an Appointment</a>
                 </li>

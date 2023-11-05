@@ -8,8 +8,8 @@ function Home() {
     return (
         <div className="app__section-container">
             <div className="app__section-cardbox">
-                <div className="app__section-card p-text">
-                    <h1 className="app__header">Welcome to Westpark Medical Clinic & Walk In</h1>
+                <div className="app__section-card p-text-word">
+                    <h1 className="app__header">Welcome to Westpark Medical Clinic & Walk-In</h1>
                     <p className="app__info">At Westpark Medical clinic we work tirelessly to provide  excellent patient base care. We are a medical home that try to make patient feel at home.
                         We have a team of  trained professionals including Physicians, Chronic disease nurse and Mental health therapist who supports us from the PCN and excellent Medical Office Assistants .</p>
                     <p className="app__info">Our services include: </p>
