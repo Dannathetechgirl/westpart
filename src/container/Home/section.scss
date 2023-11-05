@@ -82,7 +82,7 @@
 
     li {
         padding-left: 1.5rem;
-        list-style: none;
+        list-style: circle;
     }
 
     @media (max-width: 900px) {
@@ -119,7 +119,7 @@
 .app__button {
     margin-top: 1rem;
     padding: 1rem 1rem;
-    background-color: #5cb25d;
+    background-color: #C41E3A;
     border: none;
     box-shadow: 0 0 10px rgba(162, 191, 62, 0.3);
     color: var(--white-color);

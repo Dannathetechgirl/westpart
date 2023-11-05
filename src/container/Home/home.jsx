@@ -10,15 +10,14 @@ function Home() {
             <div className="app__section-cardbox">
                 <div className="app__section-card p-text">
                     <h1 className="app__header">Welcome to Westpark Medical Clinic & Walk In</h1>
-                    <p className="app__info">At every visit, our patients are listened to, cared for, and are provided quality care delivery. We are grateful for the opportunity to care for you and your family.</p>
+                    <p className="app__info">At Westpark Medical clinic we work tirelessly to provide  excellent patient base care. We are a medical home that try to make patient feel at home.
+                        We have a team of  trained professionals including Physicians, Chronic disease nurse and Mental health therapist who supports us from the PCN and excellent Medical Office Assistants .</p>
                     <p className="app__info">Our services include: </p>
                     <ul className="app__service-lists">
                         <li>Family practice</li>
                         <li>Women's health care</li>
-                        <li>Vaccination & immunization</li>
                         <li>WCB</li>
                         <li>Drivers medical exam</li>
-                        <li>Chronic migraine treatment</li>
                         <li>Care of the elderly</li>
                         <li>Pediatric care</li>
                     </ul>

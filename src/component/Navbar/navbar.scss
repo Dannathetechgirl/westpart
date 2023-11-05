@@ -22,8 +22,8 @@
     z-index: -1000;
 
     img {
-        width: 100%;
-        height: 90px;
+        width: 110px;
+        height: 105px;
 
         @media screen and (min-width: 2000px) {
             width: 180px;
@@ -40,10 +40,12 @@
 
     list-style: none;
 
+
     li {
         margin: 0 1rem;
         cursor: pointer;
-
+        font-size: 14px;
+        font-weight: 'bold';
         flex-direction: column;
 
         div {

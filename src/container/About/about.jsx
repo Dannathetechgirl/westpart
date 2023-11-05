@@ -17,13 +17,13 @@ function About() {
                 <div className="app__about-card">
                     <h4 className="app__about-title bold-text">Contact Us</h4>
                     <div className="app__about-content">
-                        <FontAwesomeIcon icon={faPhone} color="#5cb25d" />
+                        <FontAwesomeIcon icon={faPhone} color="#C41E3A" />
                         <span>(587) 457-9900</span>
                     </div>
-                    <div className="app__about-content">
+                    {/* <div className="app__about-content">
                         <FontAwesomeIcon icon={faEnvelope} color="#5cb25d" />
                         <span>westparkmediclinic@gmail.com</span>
-                    </div>
+                    </div> */}
 
                 </div>
 
