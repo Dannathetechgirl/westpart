@@ -43,7 +43,7 @@ function Navbar() {
 
 
                         <ul>
-                            {['Home', 'about'].map((item) => (
+                            {['Home', 'doctor', 'about',].map((item) => (
                                 <li key={item}>
                                     <div />
                                     <a onClick={() => setIsMenuOpen(false)} href={`#${item}`}>{item}</a>
