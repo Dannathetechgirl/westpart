@@ -46,6 +46,6 @@ const Doctor = () => {
 
 export default appWrapper(
     motionWrapper(Doctor, 'app__about'),
-    'doctor',
+    'doctors',
     'app__whitebg',
 );
