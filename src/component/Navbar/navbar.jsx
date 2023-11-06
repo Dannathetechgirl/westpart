@@ -19,7 +19,7 @@ function Navbar() {
                 <img src={image.logo} alt='logo' />
             </div>
             <ul className='app__navbar-links'>
-                {['home', 'about',].map((item) => (
+                {['home', 'doctor', 'about',].map((item) => (
                     <li className='app__flex p-text-word' key={`link-${item}`}>
                         <div />
                         <a href={`#${item}`}>{item}</a>

@@ -14,7 +14,7 @@
         border-top-right-radius: 15px;
         border-bottom-right-radius: 15px;
         padding: 20px;
-        box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+        box-shadow: 0 0 10px rgba(0, 0, 0, 0);
         top: 55%;
 
         left: 0%; // Offset it to the left
@@ -76,8 +76,8 @@
 
 .app__info,
 .app__service-lists {
-    font-family: 'montserrat';
-    font-size: 14px;
+    // font-family: 'montserrat';
+    // font-size: 14px;
     padding: 1rem 1rem;
 
     li {

@@ -1,5 +1,5 @@
 import React from 'react'
-import { About, Footer, Home } from './container'
+import { About, Footer, Home, Doctor } from './container'
 import { Navbar } from './component'
 
 import './app.scss'
@@ -8,10 +8,10 @@ function App() {
     return (
         <div className='app'>
             <Navbar />
-            <section>
-                <Home />
-            </section>
 
+            <Home />
+
+            <Doctor />
             <About />
             <Footer />
         </div>

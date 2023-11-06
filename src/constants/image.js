@@ -4,7 +4,7 @@ import background from '../assets/doctor.jpeg';
 
 export default {
     logo,
-    background
+    background,
 
 
 };

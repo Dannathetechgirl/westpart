@@ -1,19 +1,19 @@
 import React from "react";
 import { image } from '../../constants'
 import './section.scss'
-import { motionWrapper, appWrapper } from "../../wrapper";
+import { appWrapper } from "../../wrapper";
 
 
 function Home() {
     return (
         <div className="app__section-container">
             <div className="app__section-cardbox">
-                <div className="app__section-card p-text-word">
-                    <h1 className="app__header">Welcome to Westpark Medical Clinic & Walk-In</h1>
-                    <p className="app__info">At Westpark Medical clinic we work tirelessly to provide  excellent patient base care. We are a medical home that try to make patient feel at home.
+                <div className="app__section-card">
+                    <h1 className="app__header p-text-header">Welcome to Westpark Medical Clinic & Walk-In</h1>
+                    <p className="app__info p-text-word">At Westpark Medical clinic we work tirelessly to provide  excellent patient base care. We are a medical home that try to make patient feel at home.
                         We have a team of  trained professionals including Physicians, Chronic disease nurse and Mental health therapist who supports us from the PCN and excellent Medical Office Assistants .</p>
-                    <p className="app__info">Our services include: </p>
-                    <ul className="app__service-lists">
+                    <p className="app__info p-text-word">Our services include: </p>
+                    <ul className="app__service-lists p-text-word" >
                         <li>Family practice</li>
                         <li>Women's health care</li>
                         <li>WCB</li>

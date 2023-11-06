@@ -2,7 +2,7 @@ import React from "react";
 import './about.scss'
 import { motionWrapper, appWrapper } from "../../wrapper";
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { faPhone, faEnvelope } from '@fortawesome/free-solid-svg-icons';
+import { faPhone } from '@fortawesome/free-solid-svg-icons';
 
 
 function About() {
