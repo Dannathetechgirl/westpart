@@ -83,6 +83,7 @@
     li {
         padding-left: 1.5rem;
         list-style: circle;
+
     }
 
     @media (max-width: 900px) {
@@ -90,7 +91,7 @@
 
         li {
             padding-left: 1.5rem;
-            list-style: none;
+            list-style: circle;
         }
     }
 
@@ -110,7 +111,7 @@
 
         li {
             padding-left: 1.5rem;
-            list-style: none;
+            list-style: circle;
         }
 
     }
