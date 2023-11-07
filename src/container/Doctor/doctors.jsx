@@ -22,7 +22,7 @@ const Doctor = () => {
 
     return (
         <>
-            <h2 className="app__text head-text"> Our <span>Doctors</span></h2>
+            <h2 className="app__text head-text"> Meet <br /> Our <span>Doctors</span></h2>
 
             <div className="app__profiles">
                 {abouts.map((doctor, index) => (
