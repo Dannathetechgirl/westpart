@@ -31,11 +31,11 @@ function About() {
                     <h4 className="app__about-title bold-text">Clinic Hours</h4>
                     <div className="app__about-content">
                         <h5 className="p-text">Monday - Friday </h5>
-                        <span>9am - 5:30pm</span>
+                        <h4 className="p-text-word">9am - 5:30pm</h4>
                     </div>
                     <div className="app__about-content">
                         <h5 className="p-text">Saturday</h5>
-                        <span>10am - 2pm</span>
+                        <h4 className="p-text-word">10am - 2pm</h4>
                     </div>
 
 
